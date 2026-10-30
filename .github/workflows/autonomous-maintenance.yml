@@ -30,4 +30,5 @@ jobs:
       allowed_path_pattern: '^(app/|components/|lib/|types/|public/|README\.md$|docs/|\.codex/development-state\.json$)'
       project_context: Preserve current Next.js behavior and Prisma data compatibility. Do not alter middleware, Prisma schema/migrations, authentication, environment configuration, or deployment settings.
       focus: ${{ inputs.focus || 'general maintenance' }}
+      delivery_mode: direct
     secrets: inherit
